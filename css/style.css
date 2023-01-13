@@ -20,7 +20,47 @@ hr {
     border: 1px solid #D1D1D1;
     margin-top: 30px;
 }
+main{
+    margin-top: 30px;
+}
+/* header section styles */
+ header{
+    background-color: #562eff;
+ }
+.header-container{
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
 
+}
+.log{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.log img{
+    width: 42px;
+    margin-right: 16px;
+}
+.log h2{
+    color: #ffffff;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav>ul{
+    display: flex;
+}
+.nav>ul li{
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
 /* top player styles */
 
 .container {
