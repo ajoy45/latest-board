@@ -184,3 +184,14 @@ hr {
     font-size: 14.6913px;
     color: #FF4A60;
 }
+/* footer style */
+.footer{
+    background-color: #1e1e1e3a;
+    padding: 20px;
+    margin-top: 40px;
+}
+.footer p{
+    color: #f3f1ff;
+    text-align: center;
+    font-size: 16px;
+}
