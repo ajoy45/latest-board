@@ -1,5 +1,12 @@
 /* mobile responsive styles */
 @media only screen and (max-width:688px){
+     .header-container{
+      width: 100%;
+      flex-direction: column;
+     }
+     .nav{
+      flex-direction: column;
+     }
      .container{
         width: 100%;
      }
@@ -16,6 +23,10 @@
 }
 /* tablet responsive styles */
 @media only screen and (min-width:689px) and (max-width:992px) {
+   .header-container{
+      width: 80%;
+      
+     }
     .players{
         grid-template-columns: repeat(2,1fr);
      }
